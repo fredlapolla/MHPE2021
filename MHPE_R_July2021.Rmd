@@ -555,7 +555,7 @@ youngerDiabetics  <-  filter(nyc, nyc$DX_DBTS == 1  &  nyc$AGEGROUP  ==   1)
 
 ***
 
-## EXERCISE: Create a subset of the nyc_hanes dataset that has data only for the oldest group of diabetics that have a total cholesterol over 200. How many observations are in the resulting dataset?
+## Exercise: Create a subset of the nyc_hanes dataset that has data only for the oldest group of diabetics that have a total cholesterol over 200. How many observations are in the resulting dataset?
 
 ```{r}
 
