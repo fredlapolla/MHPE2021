@@ -148,7 +148,7 @@ nyc <- read.csv("yourFile.csv"")
 
 ```{r}
 
-nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/RScience2021_libr/master/NYC_HANES_DIAB.csv")
+nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/MHPE2021/master/NYC_HANES_DIAB.csv")
 
 ```
 
