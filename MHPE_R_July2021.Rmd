@@ -248,7 +248,9 @@ nyc$AGEGROUP<- factor(nyc$AGEGROUP, levels = 1:3, labels = c("20-39", "40-59", "
 
 ***
 
-## Exercise: Reclassify DX_DBTS, a variable that holds three groups, 1) Diabetes with a diagnosis; 2) Diabetes with no diagnosis and 3) No Diabetes. 
+## Exercise: 
+
+Reclassify DX_DBTS, a variable that holds three groups, 1) Diabetes with a diagnosis; 2) Diabetes with no diagnosis and 3) No Diabetes. 
 
 ```{r}
 
@@ -274,7 +276,9 @@ Depending on what types of analysis you are doing, the difference could be impor
 
 ***
 
-## Exercise: What type of structure is nyc?
+## Exercise: 
+
+What type of structure is nyc?
 
 ```{r}
 
@@ -468,7 +472,9 @@ boxplot(nyc$CHOLESTEROLTOTAL ~ nyc$GENDER, na.rm=T)
 
 ***
 
-## Exercise: Create a visualization to assess the skew of LEAD and of HDL levels. 
+## Exercise: 
+
+Create a visualization to assess the skew of LEAD and of HDL levels. 
 
 ```{r}
 
@@ -555,7 +561,9 @@ youngerDiabetics  <-  filter(nyc, nyc$DX_DBTS == 1  &  nyc$AGEGROUP  ==   1)
 
 ***
 
-## Exercise: Create a subset of the nyc_hanes dataset that has data only for the oldest group of diabetics that have a total cholesterol over 200. How many observations are in the resulting dataset?
+## Exercise: 
+
+Create a subset of the nyc_hanes dataset that has data only for the oldest group of diabetics that have a total cholesterol over 200. How many observations are in the resulting dataset?
 
 ```{r}
 
